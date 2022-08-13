@@ -1,8 +1,55 @@
 :root {
-    --brand-color:212121;
-    --bacraund-color-button:2196F3;
+    --brand-color:#212121;
+    --bacraund-color-button:#2196F3;
+    --p-color:#757575;
+}
+/* Hero tags */
+body {
+    color:#212121;
 }
 
-body {
-    color:#000;
+.list {
+    list-style:none;
+}
+
+/* Header seting */
+
+.logo {
+    color: #000;
+}
+
+.logoweb {
+    color: var(--bacraund-color-button);
+}
+
+.nav-header .link {
+    color: var(--brand-color);
+}
+
+.nav-header .link:focus,
+.nav-header a:hover {
+    color: var(--bacraund-color-button)
+}
+
+.adres-header .link{
+    color: var(--p-color);
+}
+
+.adres-header :focus,
+.adres-header :hover {
+    color: var(--bacraund-color-button)
+}
+
+/* main */
+
+.hero {
+
+}
+.size-info h3 {
+    color: var(--brand-color);
+    list-style:none;
+}
+
+.size-info p {
+    color: var(--p-color);
 }
