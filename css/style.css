@@ -84,7 +84,7 @@ body {
     color: var(--hero-white);
 }
 
-.hero-botton {
+button {
     font-family: 'Roboto';
     cursor: pointer; 
     background: var(--bacraund-color-button);
@@ -95,9 +95,7 @@ body {
     line-height: 1.8;
     border: 0;
 }
-.hero-botton :focus,
-.hero-botton :active,
-.hero-botton :hover {
+button :hover {
     background-color: var(--hero-white);
     color: var(--bacraund-color-button);
 }
