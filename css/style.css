@@ -5,9 +5,10 @@
     --hero-white: #ffffff;
     --fon:#2F303A;
 }
+
 /* King tags */
 body {
-    color:#212121;
+    color: var(--p-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     
@@ -18,7 +19,7 @@ body {
     list-style:none;
 }
 
-/* Logo (logo span) */
+/* LogoTipe (logo span) */
 
 .logo {
     color: #000;
@@ -32,6 +33,7 @@ body {
     color: var(--bacraund-color-button);
 }
 
+/* Naw Header */
 
 .link {
     color: var(--brand-color);
@@ -48,23 +50,11 @@ body {
     color: var(--bacraund-color-button);
 }
 
-.nav-header .link {
-    color: var(--brand-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.nav-header .link:focus,
-.nav-header .link:hover {
-    color: var(--bacraund-color-button)
-}
+/* Nav adress */
 
 .adres-header a {
     color: var(--p-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -107,6 +97,9 @@ body {
     background-color: var(--hero-white);
     color: var(--bacraund-color-button);
 }
+/*  /Hero button  */
+
+
 
 /* Button filtr */
 
@@ -129,8 +122,10 @@ body {
 
 }
 
-/* .pro-nas  {
-} */
+/* /Button filtr */
+
+
+
 /* TEXT MAIN */
 
 .size-info {
@@ -142,12 +137,7 @@ body {
     color: var(--brand-color);
 }
 
-.size-info-p {
-    color: var(--p-color);
-    font-size: 14px;
-    line-height: 1.7;
 
-}
 
 /* Portfolio */
 
@@ -163,13 +153,20 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    /* text-align: center; */
+    color: var(--brand-color);
 }
 
 .delopers-p {
     font-size: 16px;
     line-height: 1.9;
-    color: var(--p-color);
+    /* text-align: center; */
 }
+
+
+
+/* Button Filtr */
+
 
 .botton-filtr {
     cursor: pointer;
@@ -180,26 +177,6 @@ body {
     cursor: pointer;
     background-color: var(--bacraund-color-button);
     color: aqua;
-}
-
-.logo-footer {
-    color: var(--hero-white);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-}
-
-.adres-header {
-    font-style:normal;
-}
-
-.adres-header .str {
-    color: var(--hero-white);
-}
-
-.footer {
-    background-color: var(--fon)
 }
 
 /* Menu portfolio */
@@ -227,6 +204,40 @@ body {
     left: -9999px;
      
 }
+
+
+
+/* Footer portfolio */
+
+.logo-footer {
+    color: var(--hero-white);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.adres-header {
+    font-style:normal;
+}
+
+.adres-header .str {
+    color: var(--hero-white);
+}
+
+.footer-all {
+    background-color: var(--fon)
+}
+/* /Footer portfolio */
+
+
+
+
+
+
+
+
+
 
 /* .menu-tehno:hover {
     background-color: var(--bacraund-color-button);
