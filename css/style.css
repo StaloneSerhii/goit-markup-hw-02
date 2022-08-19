@@ -228,7 +228,7 @@ body {
     color: var(--bacraund-color-button);
 }
 
-.footer {
+.footer-all {
     background-color: var(--fon)
 }
 
@@ -252,6 +252,5 @@ body {
 }
 
 .filtr {
- 
      display: none;
 }
